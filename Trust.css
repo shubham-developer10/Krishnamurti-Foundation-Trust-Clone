@@ -1,0 +1,160 @@
+*{
+    border: none;
+    margin: 0;
+}
+.logo img{
+    width: 350px;
+    height: 60px;
+    margin-left: 450px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav-bar{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    align-items: center;
+    padding: 10px;
+    margin-left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+#magnifying-glass{
+    margin-left: 5px;
+}
+#line{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(232, 231, 231);
+}
+.photo img{
+    width: 500px;
+    height:500px ;
+    padding: 20px;
+    margin-left: 100px;
+}
+.Content{
+    display: flex;
+}
+.About{
+    padding-right: 35px;
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'tiemposfinesemibold', Georgia, "Times New Roman", serif;
+}
+.About a{
+    color: black;
+}
+.Information a{
+    color: black;
+}
+.About p{
+    font-size: 21px;
+}
+#line2{
+    color: black;
+    background-color: black;
+    width: 1050px;
+    height: 1px;
+    margin-left: 120px;
+}
+.Information{
+    margin-top: -70px;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+}
+#About-krishnamurti{
+    margin-left: 20px;
+    font-size: 22px;
+    padding: 15px;
+    width: 50%;
+}
+#About-brockwood-park{
+    font-size: 22px;
+    width: 50%;
+    padding: 15px;
+}
+.Ending-page{
+    background-color: #212121;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+#Tree img{
+    width: 290px;
+    height: 230px;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+#Tree i{
+    font-size: 27px;
+}
+#Contact{
+    color: white;
+    margin-left: 223px;
+    margin-top: 10px;
+    font-size: large;
+    width: 300px;
+    height: 70px;
+}
+#seperate{
+    width: 1px;
+    height: 510px;
+    background-color: white;
+    color: white;
+    margin-top: 50px;
+    margin-left: 85px;
+}
+#reach-krishnamurti{
+    font-size: 18px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#reach-brockwood{
+    font-size: 18px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.krishnamurti{
+    display: inline-block;
+}
+.krishnamurti button{
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.krishnamurti a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.krishnamurti .nav-bar{
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+.krishnamurti:hover .content{
+    display: block;
+}
+.krishnamurti:hover button{
+    background-color: hsl(0, 0%, 70%);
+}
+.krishnamurti a:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+#right-arrow{
+    margin-top: -22px;
+    margin-left: 115px;
+}
+
